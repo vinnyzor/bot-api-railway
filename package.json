@@ -7,6 +7,9 @@
         "pre-copy": "cd .. && npm run  copy.lib base-baileys-memory",
         "start": "node app.js"
     },
+    "engines": {
+    "node": ">=20.0.0"
+  },
     "keywords": [],
     "dependencies": {
         "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
